@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+* {
+  scroll-behavior: smooth;
+}
 @layer base {
   :root {
     --background: 0 0% 100%;

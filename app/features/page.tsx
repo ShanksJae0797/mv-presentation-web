@@ -22,14 +22,14 @@ import HarnessKnowledgeSection from "./_components/HarnessKnowledge"
 export default function ServicesPage() {
     // Service links for the highlighted UI section
     const serviceLinks = [
-        { title: "Mineral Royalties", icon: <DollarSign className="h-5 w-5" />, href: "/services/mineral-royalties" },
-        { title: "Lease Value Insights", icon: <BarChart2 className="h-5 w-5" />, href: "/services/lease-value-insights" },
-        { title: "Mineral Potentials", icon: <TrendingUp className="h-5 w-5" />, href: "/services/mineral-potentials" },
-        { title: "Mapping Your Minerals", icon: <Map className="h-5 w-5" />, href: "/services/mapping" },
-        { title: "Monitor Well Activity", icon: <Activity className="h-5 w-5" />, href: "/services/well-activity" },
-        { title: "Oil And Gas Data Hub", icon: <Database className="h-5 w-5" />, href: "/services/data-hub" },
-        { title: "Build Social Network", icon: <Users className="h-5 w-5" />, href: "/services/social-network" },
-        { title: "Knowledge Center", icon: <BookOpen className="h-5 w-5" />, href: "/services/knowledge-center" },
+        { title: "Mineral Royalties", icon: <DollarSign className="h-5 w-5" />, href: "#mineral-royalties" },
+        { title: "Lease Value Insights", icon: <BarChart2 className="h-5 w-5" />, href: "#lease-value-insights" },
+        { title: "Mineral Potentials", icon: <TrendingUp className="h-5 w-5" />, href: "#mineral-potentials" },
+        { title: "Mapping Your Minerals", icon: <Map className="h-5 w-5" />, href: "#mapping" },
+        { title: "Monitor Well Activity", icon: <Activity className="h-5 w-5" />, href: "#well-activity" },
+        { title: "Oil And Gas Data Hub", icon: <Database className="h-5 w-5" />, href: "#data-hub" },
+        { title: "Build Social Network", icon: <Users className="h-5 w-5" />, href: "#social-network" },
+        { title: "Knowledge Center", icon: <BookOpen className="h-5 w-5" />, href: "#knowledge-center" },
     ]
 
     return (
@@ -63,21 +63,37 @@ export default function ServicesPage() {
             <main className="py-8">
                 <div className="container mx-auto px-4">
                     {/* Forecast Your Incomes Section */}
-                    <ForecastIncome />
+                    <div id="mineral-royalties">
+                        <ForecastIncome />
+                    </div>
                     {/* Know The True Worth Section */}
-                    <KnowTrueWorthSection />
+                    <div id="lease-value-insights">
+                        <KnowTrueWorthSection />
+                    </div>
                     {/* Uncover Your Mineral Interests Section */}
-                    <UncoverMineralInterestSection />
+                    <div id="mineral-potentials">
+                        <UncoverMineralInterestSection />
+                    </div>
                     {/* FOLLOW YOUR WElLS SECTION */}
-                    <FollowYourWellsSection />
+                    <div id="mapping">
+                        <FollowYourWellsSection />
+                    </div>
                     {/* Monitor Well Activity Section */}
-                    <MonitorWellActivity />
+                    <div id="well-activity">
+                        <MonitorWellActivity />
+                    </div>
                     {/* Mineral Solution Section */}
-                    <MineralSolution />
+                    <div id="data-hub">
+                        <MineralSolution />
+                    </div>
                     {/* Growth Opportunities Section */}
-                    <GrowthOpportunitiesSection />
+                    <div id="social-network">
+                        <GrowthOpportunitiesSection />
+                    </div>
                     {/* Harness Knowledge Section */}
-                    <HarnessKnowledgeSection />
+                    <div id="knowledge-center">
+                        <HarnessKnowledgeSection />
+                    </div>
                 </div>
             </main>
         </div>
