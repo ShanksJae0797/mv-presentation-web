@@ -9,7 +9,7 @@ export default function BoldSection() {
                 <h2 className="text-2xl font-bold mb-4 text-white">Family Business</h2>
                 <p className="text-lg text-gray-300 mb-4">
                     <span className="text-teal-400 font-medium">BOLD Precious Metals</span> has been involved in precious
-                    metals for over 30 years, inspired by the Cochran family's grandfather, an avid coin collector. He
+                    metals for over 30 years, inspired by the Cochran family&apos;s grandfather, an avid coin collector. He
                     instilled in the family a deep appreciation for the beauty and historical significance of coins.
                 </p>
                 <p className="text-lg text-gray-300 mb-4">

@@ -1,6 +1,4 @@
 import {
-    ChevronRight,
-    ArrowRight,
     BarChart2,
     Map,
     Activity,

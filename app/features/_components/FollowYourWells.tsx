@@ -34,12 +34,12 @@ export default function FollowYourWellsSection() {
                             Because data is not always centrally located, mineral owners may experience trouble
                             keeping tabs on their wells. Moreover, the geographic barriers, limited technological tools,
                             and non-uniform reporting standards further make it challenging to make informed decisions
-                            about well activity. Presenting the MView&apos;s <strong>‘Mapping’</strong> tool that will help you visualize well
+                            about well activity. Presenting the MView&apos;s <strong>&apos;Mapping&apos;</strong> tool that will help you visualize well
                             and lease locations with one click on our interactive maps.
                         </p>
                         <p className="text-gray-300 mb-6">
                             We analyze lease data, well data, recent production rates, future mineral potential, commodity prices,
-                            and market trends to help you evaluate purchase proposals. This ensures that you're getting the best
+                            and market trends to help you evaluate purchase proposals. This ensures that you&apos;re getting the best
                             possible value for your mineral interests.
                         </p>
                         <button className="inline-flex items-center bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-6 rounded-md transition-colors duration-300">

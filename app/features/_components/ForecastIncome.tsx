@@ -18,12 +18,12 @@ export default function ForecastIncome() {
                 <div>
                     <h2 className="text-3xl font-bold mb-6">Forecast Your Incomes</h2>
                     <p className="text-gray-300 mb-4">
-                        Planning for the future can be tough when you're unsure about the financial future of your royalties.
-                        MView's accurate mineral analytics and real-time updates ensure the right mineral royalty payment data
+                        Planning for the future can be tough when you&apos;re unsure about the financial future of your royalties.
+                        MView&apos;s accurate mineral analytics and real-time updates ensure the right mineral royalty payment data
                         forecasts and maximize monetary benefits.
                     </p>
                     <p className="text-gray-300 mb-6">
-                        With MView's comprehensive <span className="text-teal-400 font-semibold">Mineral Royalties</span>{" "}
+                        With MView&apos;s comprehensive <span className="text-teal-400 font-semibold">Mineral Royalties</span>{" "}
                         feature, you can analyze production rates, lease data, mineral potential, and commodity prices—all in
                         one place. With our estimates, you will get a better handle on the future so you can manage your mineral
                         rights more effectively and get the most out of what you own.

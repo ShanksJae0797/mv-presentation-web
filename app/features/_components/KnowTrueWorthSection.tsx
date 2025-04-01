@@ -31,12 +31,12 @@ export default function KnowTrueWorthSection() {
                     <div className="order-1 lg:order-2">
                         <h2 className="text-3xl font-bold mb-6">Know The True Worth Of Your Leases</h2>
                         <p className="text-gray-300 mb-4">
-                            Stop engaging in complex methods and efforts to know your lease value! With MView's cutting-edge
+                            Stop engaging in complex methods and efforts to know your lease value! With MView&apos;s cutting-edge
                             technology, you can easily determine the value of your leases through simplified analysis.
                         </p>
                         <p className="text-gray-300 mb-6">
                             We analyze lease data, well data, recent production rates, future mineral potential, commodity prices,
-                            and market trends to help you evaluate purchase proposals. This ensures that you're getting the best
+                            and market trends to help you evaluate purchase proposals. This ensures that you&apos;re getting the best
                             possible value for your mineral interests.
                         </p>
                         <button className="inline-flex items-center bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-6 rounded-md transition-colors duration-300">

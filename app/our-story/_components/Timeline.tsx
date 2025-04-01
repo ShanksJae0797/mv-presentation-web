@@ -43,7 +43,7 @@ export default function Timeline() {
                                 <div className="pl-5 sm:pl-6 md:pl-7">
                                     <h4 className="text-base sm:text-lg font-semibold text-white">The Great War</h4>
                                     <p className="text-gray-400 mt-1 text-sm sm:text-base">
-                                        Norman was drafted for the "Great War" in 1917; however, he suffered a tragic accident which
+                                        Norman was drafted for the &quot;Great War&quot; in 1917; however, he suffered a tragic accident which
                                         resulted in the loss of his right leg.
                                     </p>
                                 </div>
@@ -76,7 +76,7 @@ export default function Timeline() {
                                     <h4 className="text-base sm:text-lg font-semibold text-white">The American Dream</h4>
                                     <p className="text-gray-400 mt-1 text-sm sm:text-base">
                                         In the late 1930s, Norman finally saved enough to purchase a small cotton farm in the hopes of
-                                        achieving his part in the "American Dream."
+                                        achieving his part in the &quot;American Dream&quot;.
                                     </p>
                                 </div>
                             </div>
@@ -91,8 +91,8 @@ export default function Timeline() {
                                 <div className="pl-5 sm:pl-6 md:pl-7">
                                     <h4 className="text-base sm:text-lg font-semibold text-white">A Legacy of Wisdom</h4>
                                     <p className="text-gray-400 mt-1 text-sm sm:text-base">
-                                        Before he died in 1971, he passed along his legacy as told by his mantras: "We should not
-                                        begrudge a man his profit" and "one good investment is worth a lifetime of toil".
+                                        Before he died in 1971, he passed along his legacy as told by his mantras: &quot;We should not
+                                        begrudge a man his profit&quot; and &quot;one good investment is worth a lifetime of toil&quot;.
                                     </p>
                                 </div>
                             </div>

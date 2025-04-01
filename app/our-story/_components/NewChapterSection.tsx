@@ -22,7 +22,7 @@ export default function NewChapterSection() {
                 <h2 className="text-2xl font-bold mb-4 text-white">The Legacy Continues</h2>
                 <p className="text-lg text-gray-300 mb-4">
                     The Cochran Family is now in its sixth generation as Texans and continues to expand the legacy of their
-                    grandfather Norman's dream, ensuring that his vision thrives for years to come. Rooted in a deep
+                    grandfather Norman&apos;s dream, ensuring that his vision thrives for years to come. Rooted in a deep
                     appreciation for the land and its resources, they have dedicated themselves to understanding and
                     advancing the oil and gas industry.
                 </p>
@@ -31,7 +31,7 @@ export default function NewChapterSection() {
                     universities like Texas A&M and the University of Texas.
                 </p>
                 <p className="text-lg text-gray-300">
-                    MView was founded on the Cochran family's legacy of integrity, expertise, and resource stewardship. With
+                    MView was founded on the Cochran family&apos;s legacy of integrity, expertise, and resource stewardship. With
                     deep industry knowledge and a personal connection to the field, they guide families in maximizing their
                     mineral assets responsibly.
                 </p>
