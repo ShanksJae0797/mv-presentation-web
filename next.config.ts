@@ -4,7 +4,9 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["res.cloudinary.com"],
   },
-  /* config options here */
+  env: {
+    BASE_URL: "https://testing-paymentapi.mineralview.com",
+  },
 };
 
 export default nextConfig;
