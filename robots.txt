@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /user/
+Disallow: mview-info.mineralview.com
+
+Allow: /
+Sitemap: https://www.mineralview.com/sitemap.xml
+
+User-agent: Linguee
+Disallow: /
