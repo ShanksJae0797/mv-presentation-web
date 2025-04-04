@@ -6,7 +6,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { carouselData } from "@/data/data"
 import { CarouselInterface } from "@/types/types"
-import { toast } from "sonner";
 
 export default function ImageCarousel() {
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -34,9 +33,6 @@ export default function ImageCarousel() {
             if (interval) clearInterval(interval)
         }
     }, [isAutoPlaying, nextSlide])
-    useEffect(() => {
-        toast.success("Welcome to MineralView!")
-    }, [])
     return (
         <div className="pt-[76px] sm:pt-[84px] md:pt-[92px] lg:pt-[100px]">
             <div className="container mx-auto px-4">
