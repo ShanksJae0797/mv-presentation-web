@@ -27,6 +27,11 @@ export default function NavigationBar() {
         window.addEventListener("scroll", handleScroll)
         return () => window.removeEventListener("scroll", handleScroll)
     }, [])
+    useEffect(() => {
+        if (pathname === "/") {
+            setActiveLink("Home");
+        }
+    }, [pathname])
     if (pathname !== "/login") {
         return (
             <header
