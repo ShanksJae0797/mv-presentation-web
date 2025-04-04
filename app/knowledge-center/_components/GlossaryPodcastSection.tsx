@@ -9,7 +9,7 @@ export const GlossarySection = () => {
                 Glossary provides clear definitions of key terms used across the sector.
             </p>
             <p className="text-gray-300 mb-6">
-                Whether you're reviewing contracts, analyzing royalty statements, or simply expanding your knowledge, this
+                Whether you&apos;re reviewing contracts, analyzing royalty statements, or simply expanding your knowledge, this
                 section helps simplify complex terminology in an easy-to-understand way.
             </p>
             <Button className="bg-amber-800 hover:bg-amber-700 text-white border-none">View Glossary</Button>

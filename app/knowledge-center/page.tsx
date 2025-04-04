@@ -1,6 +1,5 @@
 import Link from "next/link"
-import { ChevronRight, BookOpen, Users, Database, Map, Activity } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { ChevronRight } from "lucide-react"
 import KnowledgeCenterBlogsSection from "./_components/knowledge-center-blogs-section"
 import { GlossarySection, PodcastSection } from "./_components/GlossaryPodcastSection"
 
