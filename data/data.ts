@@ -20,6 +20,23 @@ export const navigationMenuData: NavigationMenuInterface[] = [
     id: 4,
     title: "Knowledge Center",
     href: "/knowledge-center",
+    dropdown: [
+      {
+        id: 1,
+        title: "Blogs",
+        href: "/blogs",
+      },
+      {
+        id: 2,
+        title: "Glossary",
+        href: "/glossary",
+      },
+      {
+        id: 3,
+        title: "Podcasts",
+        href: "/podcasts",
+      },
+    ],
   },
   {
     id: 5,
@@ -91,4 +108,3 @@ export const carouselData: CarouselInterface[] = [
     href: "#",
   },
 ];
-

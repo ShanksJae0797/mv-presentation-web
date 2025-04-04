@@ -2,6 +2,7 @@ export interface NavigationMenuInterface {
   id: number;
   title: string;
   href: string;
+  dropdown?: NavigationMenuInterface[];
 }
 
 export interface CarouselInterface {
